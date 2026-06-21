@@ -1,0 +1,35 @@
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+  margin: 24px auto 0;
+  text-align: left;
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-weight: 500;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  padding: 8px 12px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.feedback-form button {
+  align-self: flex-start;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: #242424;
+  color: #fff;
+  font-size: 16px;
+}
